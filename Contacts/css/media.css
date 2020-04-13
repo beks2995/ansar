@@ -1,0 +1,120 @@
+@media (min-width: 992px) {
+    .navbar-collapse {
+        flex-basis: inherit;
+        flex-grow: inherit;
+    }
+}
+@media (max-width: 1024px) {
+    .tel{
+        display: none;
+    }
+
+}
+@media (max-width: 992px) {
+    .top-icons-list{
+        display: none !important;
+    }
+    .contacts-block .top-icons-list{
+        display: inline-flex !important;
+    }
+    .consultation p {
+        font-size: 20px;}
+    .address{
+        display: none;
+    }
+    .contacts-block{
+        justify-content: center !important;
+        text-align: center;
+        margin-right: 0;
+    }
+    .contacts-block ul:nth-child(2){
+        margin-right: 30px;
+    }
+    #map-section:before{
+        top: -277px;
+        background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.85) 25%, rgba(0,0,0,0.65) 38%, rgba(0,0,0,0.3) 52%, rgba(0,0,0,0.17) 62%, rgba(0,0,0,0.02) 81%);
+        background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.85) 25%, rgba(0,0,0,0.65) 38%, rgba(0,0,0,0.3) 52%, rgba(0,0,0,0.17) 62%, rgba(0,0,0,0.02) 81%);
+        background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.85) 25%, rgba(0,0,0,0.65) 38%, rgba(0,0,0,0.3) 52%, rgba(0,0,0,0.17) 62%, rgba(0,0,0,0.02) 81%);
+        background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0.85) 25%, rgba(0,0,0,0.65) 38%, rgba(0,0,0,0.3) 52%, rgba(0,0,0,0.17) 62%, rgba(0,0,0,0.02) 81%);
+    }
+    #map{
+        top: -277px;
+    }
+}
+@media (max-width: 768px) {
+    #consultation{
+        text-align: center;
+    }
+    .consultation p {
+        margin-bottom: 15px;
+    }
+    .popup{
+        width: 520px;
+        height: 600px;
+    }
+    .form-zakaz textarea {
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 576px) {
+    .address-block {
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .popup {
+        width: 390px;
+        height: 500px;
+        padding: 30px;
+    }
+    .form-zakaz h3 {
+        font-size: 25px;}
+    .form-zakaz p {
+        font-size: 14px;
+        margin-bottom: 10px;}
+    .form-zakaz input, .form-zakaz textarea {
+        padding: 10px 20px;
+    }
+    .submitBtn {
+        padding: 8px;
+        font-size: 16px;
+    }
+    .message-popup {
+        width: 300px;}
+    }
+@media (max-width: 414px) {
+    .contacts-block ul:nth-child(2) {
+        margin: 10px 30px;
+    }
+    .address-block {
+        width: 290px;
+        height: 350px;
+        padding: 33px;
+        font-size: 13px;
+    }
+    .popup {
+        width: 305px;
+        height: 430px;
+        padding: 20px;
+    }
+    .form-zakaz h3 {
+        font-size: 20px;}
+    .form-zakaz input, .form-zakaz textarea{
+        padding: 8px 20px;
+        margin-bottom: 10px;
+    }
+    .submitBtn{
+        font-size: 14px;
+    }
+    .close-popup {
+        top: 10px;
+        right: 10px;}
+    .message-popup {
+        width: 250px;
+    }
+}
+@media (max-width: 400px){
+    .bottom-list {
+        display: none !important;
+    }
+}

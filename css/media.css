@@ -1,0 +1,383 @@
+@media (min-width: 1185px) {
+    .another-text{
+        margin-left: -30px;
+
+    }
+}
+@media (min-width: 992px) {
+    .navbar-collapse {
+        flex-basis: inherit;
+        flex-grow: inherit;
+    }
+}
+@media (max-width: 1024px) {
+   .tel{
+       display: none;
+   }
+    #header{
+        height: 95vh;
+    }
+    .header-block h1 {
+        font-size: 50px;
+    }
+    .header-block p {
+        font-size: 30px;
+    }
+    .btn-outline{
+        font-size: 22px;
+    }
+    .section-title h2 {
+        font-size: 35px;
+    }
+    .another-project-box{
+        max-height: 304px;
+    }
+    .another-text{
+        font-size: 20px;
+    }
+    .more-btn{
+        padding: 10px 28px;
+    }
+    .price-text {
+        width: 45%;}
+    .price-text-title {
+        font-size: 25px;}
+    .this-price {
+        font-size: 28px;}
+    .form-btn{
+        padding: 9px 20px;
+    }
+    .about-box{
+        padding: 15px 25px;
+    }
+    .about-box-title {
+        font-size: 40px;}
+    .feedback-form{
+        width: 480px;
+    }
+    .feedback-form input{
+        margin-bottom: 20px;
+        padding: 10px 0;
+    }
+}
+@media (max-width: 992px) {
+
+    .top-icons-list{
+        display: none !important;
+    }
+    .contacts-block .top-icons-list{
+        display: inline-flex !important;
+    }
+    #header{
+        height: 90vh;
+    }
+    .tabs label{
+        padding: 10px 20px;
+    }
+    .price-text {
+        width: 55%;
+        font-size: 15px;}
+    .price-text-title {
+        font-size: 23px;
+        font-weight: 600;}
+    .this-price {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 7%;
+    }
+    .form-btn {
+        font-size: 15px;
+    padding: 7px 20px}
+    .about-box {
+        font-size: 15px;
+        padding: 15px 30px}
+    .about-box-title {
+        font-size: 35px;}
+    .address{
+        display: none;
+    }
+    .contacts-block{
+        justify-content: center !important;
+        text-align: center;
+    }
+    .contacts-block ul:nth-child(2){
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .popup{
+        width: 530px;
+        height: 460px;
+        padding: 35px 50px;
+    }
+    .form-zakaz input, .form-zakaz textarea {
+        padding: 10px 15px;
+        margin-bottom: 20px;}
+    .submitBtn{
+        padding: 12px 38px;
+    }
+    .message-popup{
+        width: 200px;
+        height: 150px;
+    }
+}
+@media (max-width: 767px){
+    .header-block h1 {
+        font-size: 35px;
+    }
+    .header-block p {
+        font-size: 22px;
+    }
+    .btn-outline {
+        font-size: 18px;
+    }
+    .project-helper, .project-box-helper, .project-box, .another-project-box{
+        max-height: 250px;
+    }
+    .more-btn {
+        padding: 8px 23px;
+    }
+    .more a {
+        margin-right: 3%;
+    }
+    .more img {
+        width: 10%;
+    }
+    .section-title h2 {
+        font-size: 26px;
+    }
+    .tabs label {
+        padding: 5px 11px;
+        font-size: 14px;
+        margin: 0 4px 20px;
+    }
+    .pt-0, .pb-0, .pt-3, .pb-3, .pl-3 .pr-3, .pr-0, .pl-0, .pr-0{
+padding: 0 !important;
+    }
+    .padding-helper{
+        padding: 5px 0 !important;
+    }
+    .price-box{
+        width: 100%;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 20px 25px;
+    }
+    .price-text-title {
+        font-size: 30px;}
+    .price-text{
+        width: 100%;
+    }
+    .price-items {
+        text-align: center;
+        width: 100%;
+    }
+    .this-price {
+        margin-bottom: 1%;
+    }
+    .form-btn {
+        font-size: 17px;
+        padding: 7px 25px;
+    }
+.about-box{
+    padding: 10px 10px;
+}
+.about-box p{
+    font-size: 14px;
+}
+    .about-box-title {
+        font-size: 30px;
+    }
+    .feedback-form{
+        width: 455px;
+    }
+    .feedback-form input, .feedback-form textarea {
+        margin-bottom: 15px;}
+    .feedback-form-btn{
+        width: 35%;
+        padding: 7px 13px;
+    }
+    .contacts-block{
+        justify-content: center !important;
+    }
+    .bottom-icon-list{
+        display: inline-flex !important;
+    }
+}
+@media (max-width: 576px) {
+    .header-block h1 {
+        font-size: 26px;
+    }
+    .header-block p {
+        font-size: 18px;
+    }
+    .btn-outline {
+        font-size: 16px;
+    }
+    .tabs input:checked+label {
+        display: list-item;
+    }
+    .project-helper, .project-box-helper, .project-box, .another-project-box {
+        max-height: 180px;
+    }
+    .another-text p{
+        font-size: 14px;
+    } .another-text h4{
+        font-size: 18px;
+    }
+    .more {
+        width: 60%;
+    }
+    .more-btn {
+        padding: 6px 15px;
+        font-size: 14px;
+    }
+    .price-text-title {
+        font-size: 23px;
+    }
+    .price-text li p{
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+    .about-box{
+        margin-bottom: 10px;
+    }
+    .feedback-form {
+        width: 390px;
+    }
+    .popup {
+        width: 410px;
+        height: 440px;
+        padding: 31px 30px;
+    }
+}
+
+@media (max-width: 472px) {
+    .contacts-block ul:nth-child(2) {
+        margin-right: 0;
+        width: 100%;
+    }
+}
+@media (max-width: 414px) {
+    .project-helper, .project-box-helper, .project-box, .another-project-box {
+        max-height: 135px;
+    }
+    .padding-helper{
+        padding: 5px 10px !important;
+    }
+    .top-text{
+        padding: 15px;
+    }
+    .project-box-text h4 {
+        font-size: 21px;}
+    .another-project-box-text {
+        padding: 13px;}
+    .another-text p {
+        font-size: 12px;
+    }
+    .another-text h4 {
+        font-size: 15px;
+    }
+    .more-btn {
+        padding: 3px 8px;
+        font-size: 11px;
+    }
+    .more img {
+        width: 8%;
+    }
+    .price-box{
+        padding: 15px 15px;
+    }
+    .price-text-title {
+        font-size: 21px;
+    }
+    .price-text li p {
+        font-size: 13px;}
+    .this-price {
+        font-size: 22px;}
+    .form-btn {
+        font-size: 15px;
+        padding: 7px 30px;
+    }
+    .feedback-form {
+        width: 310px;
+    }
+    .contacts-block ul:last-child{
+        display: none;
+    }
+    .contacts-block ul:nth-child(2) {
+        margin-right: 0;
+    }
+    .popup {
+        width: 350px;
+        height: 400px;
+        padding: 31px 30px;
+    }
+    .form-zakaz h3{
+        font-size: 28px;
+    }
+    .form-zakaz p {
+        font-size: 15px;
+    }
+    .form-zakaz input, .form-zakaz textarea {
+        margin-bottom: 15px;
+    }
+    .close-popup {
+        top: 5px;
+        right: 5px;}
+}
+@media (max-width: 380px){
+    .feedback-form {
+        width: 300px;
+    }
+    .bottom-list{
+        display: none !important;
+    }
+    .popup {
+        width: 320px;}
+    .form-zakaz h3{
+        font-size: 26px;
+    }
+}
+@media (max-width: 320px){
+    .section-title h2 {
+        font-size: 20px;
+    }
+    .price-box{
+        padding: 10px;
+    }
+    .price-text-title {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .price-text li p {
+        font-size: 12px;
+    }
+    .this-price {
+        font-size: 19px;
+    }
+    .feedback-form {
+        width: 260px;
+    }
+    .feedback-form-btn {
+        width: 40%;
+        padding: 3px 13px;
+        font-size: 15px;
+    }
+    .form-btn {
+        font-size: 13px;
+        padding: 5px 20px;
+    }
+    .popup {
+        width: 285px;
+        height: 375px;
+        padding: 28px 15px;
+    }
+    .form-zakaz h3 {
+        font-size: 23px;
+    }
+    .form-zakaz input, .form-zakaz textarea {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,943 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ansar Studio</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./fonts/gotham/stylesheet.css">
+    <link rel="stylesheet" href="./fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/slick-theme.css"/>
+    <link rel="stylesheet" href="./css/overlays.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+<div class="overlay js-overlay-campaing">
+    <div class="popup js-popup-campaing">
+        <form class="form-zakaz">
+            <h3>Форма для заказа</h3>
+            <p>Корпоративного сайта</p>
+            <input type="text" placeholder="Введите Имя" required>
+            <input type="tel" placeholder="Введите Телефон" required>
+            <textarea name="zakaz" id="" cols="30" rows="2" placeholder="Комментарий"></textarea>
+            <button class="submitBtn js-submit-campaing">Отправить</button>
+        </form>
+        <div class="close-popup js-close-campaing"></div>
+    </div>
+</div>
+<!--form overlay-->
+<div class="message-overlay js-message-overlay-campaing">
+    <div class="message-popup js-message-popup-campaing">
+        <div class="items">
+            <img src="./images/check.png" alt="">
+            <span>Отправлено</span>
+        </div>
+        <div class="close-message-popup js-close-message-campaing"></div>
+    </div>
+</div>
+
+<header>
+    <div class="container">
+        <nav class="navbar navbar-dark navbar-expand-lg justify-content-between">
+            <a class="navbar-brand logo" href="#"><img src="./images/header/logo.png" alt="logo"><img
+                    src="./images/header/logo.png"
+                    alt="logo"
+                    class="logo-hover"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav top-list">
+                    <li class="nav-item top-list-items active">
+                        <a class="nav-link " href="#header">Главная <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item top-list-items">
+                        <a class="nav-link" href="#portfolio">Портфолио</a>
+                    </li>
+                    <li class="nav-item top-list-items">
+                        <a class="nav-link" href="#price">Тарифы</a>
+                    </li>
+                    <li class="nav-item top-list-items">
+                        <a class="nav-link" href="./AboutUs/index.html">О нас</a>
+                    </li>
+                    <li class="nav-item top-list-items">
+                        <a class="nav-link" href="./Contacts/index.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="tel: +996 702 745-329" class="tel">+996 702 745-329</a>
+            <ul class="top-icons-list d-inline-flex">
+                <li class="top-social-icons"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                <li class="top-social-icons"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li class="top-social-icons"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- end navigation-->
+<main>
+    <!--    header start-->
+    <section id="header" class="d-flex align-items-center text-center">
+        <div class="container">
+            <div class="header-block">
+                <h1>Разработка продающихся<br> web-сайтов</h1>
+                <p>«от профессионалов своего дела»</p>
+                <a href="#portfolio" class="btn btn-outline">смотреть наши работы</a>
+            </div>
+            <div class="scroll-down-btn">
+                <a href="#portfolio"><img src="./images/header/arrow-down.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+    <!--    section header end-->
+    <!--    portfolio start-->
+    <section id="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>Портфолио</h2>
+            </div>
+        </div>
+        <div class="tabs">
+            <input type="radio" id="corporation" name="tabs" checked>
+            <label for="corporation">Корпоративный сайт</label>
+            <input type="radio" id="spa" name="tabs">
+            <label for="spa">Одностраничный</label>
+            <input type="radio" id="landing" name="tabs">
+            <label for="landing">Landing page</label>
+            <input type="radio" id="visit" name="tabs">
+            <label for="visit">Сайт визитка</label>
+            <!--            tab1-->
+            <div class="tab tab1">
+                <div class="light-container">
+                    <div class="row row-helper">
+                        <!--            start col-4-->
+                        <div class="col-md-4 pt-3 pb-3 pl-0 pr-0 padding-helper">
+                            <div class="project-box project-helper">
+                                <img src="./images/portfolio/tab1.png" alt="">
+                                <div class="project-box-text">
+                                    <div class="top-text">
+                                        <p>Корпаративный сайт для студии</p>
+                                        <h4>Digital marketing</h4>
+                                    </div>
+                                    <div class="search-icon">
+                                        <a href="#">
+                                            <i class="fas fa-search-plus"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--            end col-4-->
+                        <div class="col-md-8 pt-3 pb-3 pl-0 pr-0">
+                            <!--                    start row in row-->
+                            <div class="row row-helper">
+                                <div class="col-md-6 pb-3 pr-0 padding-helper">
+                                    <div class="project-box">
+                                        <img src="./images/portfolio/tab2.png" alt="">
+                                        <div class="project-box-text">
+                                            <div class="top-text">
+                                                <p>Корпаративный сайт для студии</p>
+                                                <h4>Digital marketing</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="#">
+                                                    <i class="fas fa-search-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--                        end col-->
+                                <div class="col-md-6 pb-3 pr-0 padding-helper">
+                                    <div class="project-box">
+                                        <img src="./images/portfolio/tab3.png" alt="">
+                                        <div class="project-box-text">
+                                            <div class="top-text">
+                                                <p>Корпаративный сайт для студии</p>
+                                                <h4>Digital marketing</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="#">
+                                                    <i class="fas fa-search-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--                        end col-->
+                                <div class="col-md-6 pr-0 padding-helper">
+                                    <div class="project-box">
+                                        <img src="./images/portfolio/tab4.png" alt="">
+                                        <div class="project-box-text">
+                                            <div class="top-text">
+                                                <p>Корпаративный сайт для студии</p>
+                                                <h4>Digital marketing</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="#">
+                                                    <i class="fas fa-search-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--                        end col-->
+                                <div class="col-md-6 pr-0 padding-helper">
+                                    <div class="project-box">
+                                        <img src="./images/portfolio/tab5.png" alt="">
+                                        <div class="project-box-text">
+                                            <div class="top-text">
+                                                <p>Корпаративный сайт для студии</p>
+                                                <h4>Digital marketing</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="#">
+                                                    <i class="fas fa-search-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--                        end col-->
+                            </div>
+                            <!--                    end row in row-->
+                        </div>
+                        <!--                end col-8-->
+                        <!--            start col-4-->
+                        <div class="col-md-4 pt-0 pb-3 pl-0 pr-0 padding-helper">
+                            <div class="project-box project-box-helper">
+                                <img src="./images/portfolio/tab6.png" alt="">
+                                <div class="project-box-text">
+                                    <div class="top-text">
+                                        <p>Корпаративный сайт для студии</p>
+                                        <h4>Digital marketing</h4>
+                                    </div>
+                                    <div class="search-icon">
+                                        <a href="#">
+                                            <i class="fas fa-search-plus"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--            end col-8-->
+                        <div class="col-md-8 pt-0 pb-3 pr-0 padding-helper">
+                            <div class="another-project-box">
+                                <img src="./images/portfolio/tab7.png" alt="">
+                                <div class="another-project-box-text">
+                                    <div>
+                                        <div class="row">
+                                            <div class="col-2 d-flex align-items-center"><img src="./images/portfolio/corp.png" alt="" class="circle"></div>
+                                            <div class="col-10 pl-0">
+                                                <div class="another-text">
+                                                <p class="orange-text mb-0"> Корпоративные сайты</p>
+                                                <h4>Корпоративный сайт для сталелитейного завода</h4></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="more">
+                                        <a href="#" class="btn more-btn">
+                                            ПОДРОБНЕЕ
+                                        </a>
+                                        <img src="./images/portfolio/arrow-right.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--            end col-8-->
+                    </div>
+                    <!--        end row-->
+                </div>
+                <!--        end light-container-->
+            </div>
+            <!--            end tab1-->
+            <!--            tab2-->
+            <div class="tab tab2">
+                <div class="light-container">
+                    <div class="row row-helper">
+                        <!--            start col-4-->
+                        <div class="col-md-4 pt-3 pb-0 pl-0 pr-0 padding-helper">
+                            <div class="project-box project-box-helper">
+                                <img src="./images/portfolio/tab6.png" alt="">
+                                <div class="project-box-text">
+                                    <div class="top-text">
+                                        <p>Корпаративный сайт для студии</p>
+                                        <h4>Digital marketing</h4>
+                                    </div>
+                                    <div class="search-icon">
+                                        <a href="#">
+                                            <i class="fas fa-search-plus"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--                        end col-4-->
+                        <div class="col-md-8 pt-3 pb-0 pr-0 padding-helper">
+                            <div class="another-project-box">
+                                <img src="./images/portfolio/tab7.png" alt="">
+                                <div class="another-project-box-text">
+                                    <div>
+                                        <div class="row">
+                                            <div class="col-2 d-flex align-items-center"><img src="./images/portfolio/corp.png" alt="" class="circle"></div>
+                                            <div class="col-10 pl-0">
+                                                <div class="another-text">
+                                                    <p class="orange-text mb-0"> Корпоративные сайты</p>
+                                                    <h4>Корпоративный сайт для сталелитейного завода</h4></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="more">
+                                        <a href="#" class="btn more-btn">
+                                            ПОДРОБНЕЕ
+                                        </a>
+                                        <img src="./images/portfolio/arrow-right.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--            end col-8-->
+                        <!--            start col-4-->
+                        <div class="col-md-4 pt-3 pb-3 pl-0 pr-0 padding-helper">
+                            <div class="project-box project-helper">
+                                <img src="./images/portfolio/tab1.png" alt="">
+                                <div class="project-box-text">
+                                    <div class="top-text">
+                                        <p>Корпаративный сайт для студии</p>
+                                        <h4>Digital marketing</h4>
+                                    </div>
+                                    <div class="search-icon">
+                                        <a href="#">
+                                            <i class="fas fa-search-plus"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--            end col-4-->
+<!--                        start col-8-->
+                        <div class="col-md-8 pt-3 pb-3 pl-0 pr-0">
+                            <!--                    start row in row-->
+                            <div class="row row-helper">
+                                <div class="col-md-6 pb-3 pr-0 padding-helper">
+                                    <div class="project-box">
+                                        <img src="./images/portfolio/tab2.png" alt="">
+                                        <div class="project-box-text">
+                                            <div class="top-text">
+                                                <p>Корпаративный сайт для студии</p>
+                                                <h4>Digital marketing</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="#">
+                                                    <i class="fas fa-search-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--                        end col-->
+                                <div class="col-md-6 pb-3 pr-0 padding-helper">
+                                    <div class="project-box">
+                                        <img src="./images/portfolio/tab3.png" alt="">
+                                        <div class="project-box-text">
+                                            <div class="top-text">
+                                                <p>Корпаративный сайт для студии</p>
+                                                <h4>Digital marketing</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="#">
+                                                    <i class="fas fa-search-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--                        end col-->
+                                <div class="col-md-6 pr-0 padding-helper">
+                                    <div class="project-box">
+                                        <img src="./images/portfolio/tab4.png" alt="">
+                                        <div class="project-box-text">
+                                            <div class="top-text">
+                                                <p>Корпаративный сайт для студии</p>
+                                                <h4>Digital marketing</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="#">
+                                                    <i class="fas fa-search-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--                        end col-->
+                                <div class="col-md-6 pr-0 padding-helper">
+                                    <div class="project-box">
+                                        <img src="./images/portfolio/tab5.png" alt="">
+                                        <div class="project-box-text">
+                                            <div class="top-text">
+                                                <p>Корпаративный сайт для студии</p>
+                                                <h4>Digital marketing</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="#">
+                                                    <i class="fas fa-search-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--                        end col-->
+                            </div>
+                            <!--                    end row in row-->
+                        </div>
+                        <!--                end col-8-->
+
+                    </div>
+                    <!--        end row-->
+                </div>
+                <!--        end light-container-->
+            </div>
+            <!--            end tab2-->
+            <!--            tab3-->
+            <div class="tab tab3">
+                <div class="light-container">
+                    <div class="row row-helper">
+
+                        <div class="col-md-8 pt-3 pb-3 pl-0 pr-3">
+                            <!--                    start row in row-->
+                            <div class="row row-helper">
+                                <div class="col-md-6 pb-3 pr-0 pl-0 padding-helper">
+                                    <div class="project-box">
+                                        <img src="./images/portfolio/tab2.png" alt="">
+                                        <div class="project-box-text">
+                                            <div class="top-text">
+                                                <p>Корпаративный сайт для студии</p>
+                                                <h4>Digital marketing</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="#">
+                                                    <i class="fas fa-search-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--                        end col-->
+                                <div class="col-md-6 pb-3 pr-0 padding-helper">
+                                    <div class="project-box">
+                                        <img src="./images/portfolio/tab3.png" alt="">
+                                        <div class="project-box-text">
+                                            <div class="top-text">
+                                                <p>Корпаративный сайт для студии</p>
+                                                <h4>Digital marketing</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="#">
+                                                    <i class="fas fa-search-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--                        end col-->
+                                <div class="col-md-6 pr-0 pl-0 padding-helper">
+                                    <div class="project-box">
+                                        <img src="./images/portfolio/tab4.png" alt="">
+                                        <div class="project-box-text">
+                                            <div class="top-text">
+                                                <p>Корпаративный сайт для студии</p>
+                                                <h4>Digital marketing</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="#">
+                                                    <i class="fas fa-search-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--                        end col-->
+                                <div class="col-md-6 pr-0 padding-helper">
+                                    <div class="project-box">
+                                        <img src="./images/portfolio/tab5.png" alt="">
+                                        <div class="project-box-text">
+                                            <div class="top-text">
+                                                <p>Корпаративный сайт для студии</p>
+                                                <h4>Digital marketing</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="#">
+                                                    <i class="fas fa-search-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--                        end col-->
+                            </div>
+                            <!--                    end row in row-->
+                        </div>
+                        <!--                end col-8-->
+                        <!--            start col-4-->
+                        <div class="col-md-4 pt-3 pb-3 pl-0 pr-0 padding-helper">
+                            <div class="project-box project-helper">
+                                <img src="./images/portfolio/tab1.png" alt="">
+                                <div class="project-box-text">
+                                    <div class="top-text">
+                                        <p>Корпаративный сайт для студии</p>
+                                        <h4>Digital marketing</h4>
+                                    </div>
+                                    <div class="search-icon">
+                                        <a href="#">
+                                            <i class="fas fa-search-plus"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--            end col-4-->
+                        <!--            start col-4-->
+                        <div class="col-md-4 pt-0 pb-3 pl-0 pr-2 padding-helper">
+                            <div class="project-box project-box-helper">
+                                <img src="./images/portfolio/tab6.png" alt="">
+                                <div class="project-box-text">
+                                    <div class="top-text">
+                                        <p>Корпаративный сайт для студии</p>
+                                        <h4>Digital marketing</h4>
+                                    </div>
+                                    <div class="search-icon">
+                                        <a href="#">
+                                            <i class="fas fa-search-plus"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--            end col-8-->
+                        <div class="col-md-8 pt-0 pb-3 pr-0 pl-2 padding-helper">
+                            <div class="another-project-box">
+                                <img src="./images/portfolio/tab7.png" alt="">
+                                <div class="another-project-box-text">
+                                    <div>
+                                        <div class="row">
+                                            <div class="col-2 d-flex align-items-center"><img src="./images/portfolio/corp.png" alt="" class="circle"></div>
+                                            <div class="col-10 pl-0">
+                                                <div class="another-text">
+                                                    <p class="orange-text mb-0"> Корпоративные сайты</p>
+                                                    <h4>Корпоративный сайт для сталелитейного завода</h4></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="more">
+                                        <a href="#" class="btn more-btn">
+                                            ПОДРОБНЕЕ
+                                        </a>
+                                        <img src="./images/portfolio/arrow-right.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--            end col-8-->
+                    </div>
+                    <!--        end row-->
+                </div>
+                <!--        end light-container-->
+            </div>
+            <!--            end tab3-->
+            <!--            tab4-->
+            <div class="tab tab4">
+                <div class="light-container">
+                    <div class="row row-helper">
+                        <div class="col-md-8 pt-3 pb-0 pr-3 pl-0 padding-helper">
+                            <div class="another-project-box">
+                                <img src="./images/portfolio/tab7.png" alt="">
+                                <div class="another-project-box-text">
+                                    <div>
+                                        <div class="row">
+                                            <div class="col-2 d-flex align-items-center"><img src="./images/portfolio/corp.png" alt="" class="circle"></div>
+                                            <div class="col-10 pl-0">
+                                                <div class="another-text">
+                                                    <p class="orange-text mb-0"> Корпоративные сайты</p>
+                                                    <h4>Корпоративный сайт для сталелитейного завода</h4></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="more">
+                                        <a href="#" class="btn more-btn">
+                                            ПОДРОБНЕЕ
+                                        </a>
+                                        <img src="./images/portfolio/arrow-right.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--            end col-8-->
+                        <!--            start col-4-->
+                        <div class="col-md-4 pt-3 pb-0 pl-0 pr-0 padding-helper">
+                            <div class="project-box project-box-helper">
+                                <img src="./images/portfolio/tab6.png" alt="">
+                                <div class="project-box-text">
+                                    <div class="top-text">
+                                        <p>Корпаративный сайт для студии</p>
+                                        <h4>Digital marketing</h4>
+                                    </div>
+                                    <div class="search-icon">
+                                        <a href="#">
+                                            <i class="fas fa-search-plus"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--                        end col-4-->
+                        <!--                        start col-8-->
+                        <div class="col-md-8 pt-3 pb-3 pl-0 pr-3">
+                            <!--                    start row in row-->
+                            <div class="row row-helper">
+                                <div class="col-md-6 pb-3 pr-0 pl-0 padding-helper">
+                                    <div class="project-box">
+                                        <img src="./images/portfolio/tab2.png" alt="">
+                                        <div class="project-box-text">
+                                            <div class="top-text">
+                                                <p>Корпаративный сайт для студии</p>
+                                                <h4>Digital marketing</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="#">
+                                                    <i class="fas fa-search-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--                        end col-->
+                                <div class="col-md-6 pb-3 pr-0 padding-helper">
+                                    <div class="project-box">
+                                        <img src="./images/portfolio/tab3.png" alt="">
+                                        <div class="project-box-text">
+                                            <div class="top-text">
+                                                <p>Корпаративный сайт для студии</p>
+                                                <h4>Digital marketing</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="#">
+                                                    <i class="fas fa-search-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--                        end col-->
+                                <div class="col-md-6 pr-0 pl-0 padding-helper">
+                                    <div class="project-box">
+                                        <img src="./images/portfolio/tab4.png" alt="">
+                                        <div class="project-box-text">
+                                            <div class="top-text">
+                                                <p>Корпаративный сайт для студии</p>
+                                                <h4>Digital marketing</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="#">
+                                                    <i class="fas fa-search-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--                        end col-->
+                                <div class="col-md-6 pr-0 padding-helper">
+                                    <div class="project-box">
+                                        <img src="./images/portfolio/tab5.png" alt="">
+                                        <div class="project-box-text">
+                                            <div class="top-text">
+                                                <p>Корпаративный сайт для студии</p>
+                                                <h4>Digital marketing</h4>
+                                            </div>
+                                            <div class="search-icon">
+                                                <a href="#">
+                                                    <i class="fas fa-search-plus"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--                        end col-->
+                            </div>
+                            <!--                    end row in row-->
+                        </div>
+                        <!--                end col-8-->
+                        <!--            start col-4-->
+                        <div class="col-md-4 pt-3 pb-3 pl-0 pr-0 padding-helper">
+                            <div class="project-box project-helper">
+                                <img src="./images/portfolio/tab1.png" alt="">
+                                <div class="project-box-text">
+                                    <div class="top-text">
+                                        <p>Корпаративный сайт для студии</p>
+                                        <h4>Digital marketing</h4>
+                                    </div>
+                                    <div class="search-icon">
+                                        <a href="#">
+                                            <i class="fas fa-search-plus"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--            end col-4-->
+
+                    </div>
+                    <!--        end row-->
+                </div>
+                <!--        end light-container-->
+            </div>
+            <!--            end tab4-->
+
+        </div>
+        <!--     end tabs-->
+    </section>
+    <!--     portfolio section end-->
+    <!--    price start-->
+    <section id="price">
+        <div class="container">
+            <div class="section-title">
+                <h2>Наши тарифы</h2>
+            </div>
+            <div class="price-box orange d-flex justify-content-between mb-2">
+                <ul class="price-text">
+                    <li><h3 class="price-text-title">Корпаративный сайт</h3></li>
+                    <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget finibus justo. Lorem ipsum
+                        dolor sit amet, consectetur </p></li>
+                </ul>
+                <ul class="price-items">
+                    <li class="this-price">ОТ 350$</li>
+                    <li><span class="btn form-btn js-button-campaing darkness">Заказать сайт</span></li>
+                </ul>
+            </div>
+            <!--            end price-box-->
+            <div class="price-box light d-flex justify-content-between mb-2">
+                <ul class="price-text">
+                    <li><h3 class="price-text-title orange-text">Одностраничный</h3></li>
+                    <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget finibus justo. Lorem ipsum
+                        dolor sit amet, consectetur </p></li>
+                </ul>
+                <ul class="price-items">
+                    <li class="this-price orange-text">ОТ 350$</li>
+                    <li><span class="btn form-btn js-button-campaing lightness">Заказать сайт</span></li>
+                </ul>
+            </div>
+            <!--            end price-box-->
+            <div class="price-box orange d-flex justify-content-between mb-2">
+                <ul class="price-text">
+                    <li><h3 class="price-text-title">Landing page</h3></li>
+                    <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget finibus justo. Lorem ipsum
+                        dolor sit amet, consectetur </p></li>
+                </ul>
+                <ul class="price-items">
+                    <li class="this-price">ОТ 350$</li>
+                    <li><span class="btn form-btn js-button-campaing darkness">Заказать сайт</span></li>
+                </ul>
+            </div>
+            <!--            end price-box-->
+            <div class="price-box light d-flex justify-content-between mb-2">
+                <ul class="price-text">
+                    <li><h3 class="price-text-title orange-text">Сайт визитка</h3></li>
+                    <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget finibus justo. Lorem ipsum
+                        dolor sit amet, consectetur </p></li>
+                </ul>
+                <ul class="price-items">
+                    <li class="this-price orange-text">ОТ 350$</li>
+                    <li><span class="btn form-btn js-button-campaing lightness">Заказать сайт</span></li>
+                </ul>
+            </div>
+            <!--            end price-box-->
+        </div>
+    </section>
+    <!--    price end-->
+    <!--    clients-->
+    <section id="clients">
+        <div class="section-title">
+            <h2>Наши клиенты</h2>
+        </div>
+        <div class="wrapper">
+            <div class="slider">
+                <div class="slider-item">
+                    <div class="slider-item-box">
+                        <img src="./images/clients/client1.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div class="slider-item-box">
+                        <img src="./images/clients/client2.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div class="slider-item-box">
+                        <img src="./images/clients/client3.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div class="slider-item-box">
+                        <img src="./images/clients/client4.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div class="slider-item-box">
+                        <img src="./images/clients/client5.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div class="slider-item-box">
+                        <img src="./images/clients/client6.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div class="slider-item-box">
+                        <img src="./images/clients/client1.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div class="slider-item-box">
+                        <img src="./images/clients/client2.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div class="slider-item-box">
+                        <img src="./images/clients/client3.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div class="slider-item-box">
+                        <img src="./images/clients/client4.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div class="slider-item-box">
+                        <img src="./images/clients/client5.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div class="slider-item-box">
+                        <img src="./images/clients/client6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    end clients-->
+    <!--    about-->
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Мы в цифрах</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-md-4">
+                    <div class="about-box">
+                        <h4 class="about-box-title orange-text">25</h4>
+                        <p>Cras vulputate viverra euismod. Curabitur lobortis consectetur </p>
+                    </div>
+                </div>
+                <!--                col-end-->
+                <div class="col-sm-4 col-md-4">
+                    <div class="about-box">
+                        <h4 class="about-box-title orange-text">30</h4>
+                        <p>Cras vulputate viverra euismod. Curabitur lobortis consectetur </p>
+                    </div>
+                </div>
+                <!--                col-end-->
+                <div class="col-sm-4 col-md-4">
+                    <div class="about-box">
+                        <h4 class="about-box-title orange-text">45</h4>
+                        <p>Cras vulputate viverra euismod. Curabitur lobortis consectetur </p>
+                    </div>
+                </div>
+                <!--                col-end-->
+            </div>
+            <!--            row end-->
+        </div>
+    </section>
+    <!--    about end-->
+    <!--    feedback-->
+    <section id="feedback">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="mb-0">Получите бесплатную консультацию</h2>
+                <p>Мы обязательно свяжемся с вами!</p>
+            </div>
+            <form class="feedback-form" action="">
+                <input type="text" placeholder="Введите Имя" required>
+                <input type="tel" placeholder="Введите телефон" required>
+                <textarea cols="30" rows="1" placeholder="Опишите задачу"></textarea>
+                <button class="feedback-form-btn js-submit-campaing">Получить</button>
+            </form>
+        </div>
+    </section>
+    <!--    end feedback-->
+    <!--    contacts-->
+    <section id="contacts">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1033.7456161821024!2d74.57638027782234!3d42.875500561466446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2skg!4v1585989955503!5m2!1sru!2skg"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        <div class="container">
+            <div class="section-title">
+                <h2>Контакты</h2>
+            </div>
+            <div class="contacts-block d-flex flex-wrap justify-content-between">
+                <ul>
+                    <li><a href="https://www.google.com/maps/@42.8757838,74.5762386,17.5z?hl=ru-KG" class="address">Ул.Молодая
+                        гвардия<br>
+                        пересекает Ул.Киевская</a></li>
+                </ul>
+                <ul>
+                    <li><a href="tel:+996 702745329">+996 702745329</a></li>
+                    <li><a href="tel:+996 702745329">+996 702745329</a></li>
+                </ul>
+                <ul>
+                    <li><a href="mailto: Ansar.studio@gmail.com">Ansar.studio@gmail.com</a></li>
+                    <li>Мы в соц.сетях:</li>
+                    <li>
+                        <ul class="top-icons-list d-inline-flex bottom-icon-list">
+                            <li class="top-social-icons"><a href="#"><i class="fab fa-whatsapp"></i></a>
+                            </li>
+                            <li class="top-social-icons"><a href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li class="top-social-icons"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom-list d-flex justify-content-center">
+                <ul class="d-flex">
+                    <li class="top-list-items bottom-list-items mr-4"><a href="#portfolio">Портфолио</a></li>
+                    <li class="top-list-items bottom-list-items mr-4"><a href="#price">Тарифы </a></li>
+                    <li class="top-list-items bottom-list-items mr-4"><a href="./AboutUs/index.html">О нас</a></li>
+                    <li class="top-list-items bottom-list-items"><a href="#contacts">Контакты</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+    <!--    end contacts-->
+</main>
+<!--end main-->
+<!--footer-->
+<footer>
+    <ul class="footer-block d-flex justify-content-center">
+        <li class="mr-2"> &copy; 2020</li>
+        <li> ANSAR STUDIO</li>
+    </ul>
+</footer>
+
+<!--end footer-->
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/slick.min.js"></script>
+<script src="./js/jquery.maskedinput.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>

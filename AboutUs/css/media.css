@@ -1,0 +1,143 @@
+@media (min-width: 992px) {
+    .navbar-collapse {
+        flex-basis: inherit;
+        flex-grow: inherit;
+    }
+}
+@media (max-width: 1024px) {
+    .tel{
+        display: none;
+    }
+
+}
+@media (max-width: 992px) {
+    .top-icons-list{
+        display: none !important;
+    }
+    #header:before {
+        top: -277px;
+    }
+    .about-text {
+        padding: 0 20px 50px;
+    }
+    .consult-block {
+        padding: 65px 40px 50px;
+        font-size: 22px;}
+    .contacts-block .top-icons-list{
+        display: inline-flex !important;
+    }
+    .address{
+        display: none;
+    }
+    .contacts-block{
+        justify-content: center !important;
+        text-align: center;
+        margin-right: 0;
+    }
+    .contacts-block ul:nth-child(2){
+        margin-right: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .header-block h1 {
+        font-size: 60px;}
+    #consultation {
+        height: 40vh;}
+    .consult-block {
+        padding: 50px 30px 40px;
+        font-size: 20px;
+    }
+    .popup{
+        width: 520px;
+        height: 600px;
+    }
+    .form-zakaz textarea {
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 576px) {
+    .consult-block {
+        padding: 45px 25px 35px;
+        font-size: 14px;
+    }
+    .slick-next, .slick-prev, .slick-next:hover, .slick-prev:hover {
+        display: none !important;
+    }
+    .popup {
+        width: 390px;
+        height: 500px;
+        padding: 30px;
+    }
+    .form-zakaz h3 {
+        font-size: 25px;}
+    .form-zakaz p {
+        font-size: 14px;
+        margin-bottom: 10px;}
+    .form-zakaz input, .form-zakaz textarea {
+        padding: 10px 20px;
+    }
+    .submitBtn {
+        padding: 8px;
+        font-size: 16px;
+    }
+    .message-popup {
+        width: 300px;}
+    }
+@media (max-width: 414px) {
+    #consultation {
+        height: 35vh;
+    }
+    .team-title h3 {
+        font-size: 31px;}
+    .contacts-block ul:nth-child(2) {
+        margin: 10px 30px;
+    }
+    .popup {
+        width: 305px;
+        height: 430px;
+        padding: 20px;
+    }
+    .form-zakaz h3 {
+        font-size: 20px;}
+    .form-zakaz input, .form-zakaz textarea{
+        padding: 8px 20px;
+        margin-bottom: 10px;
+    }
+    .submitBtn{
+        font-size: 14px;
+    }
+    .close-popup {
+        top: 10px;
+        right: 10px;}
+    .message-popup {
+        width: 250px;
+    }
+}
+@media (max-width: 400px) {
+    .bottom-list {
+        display: none !important;}
+}
+@media (max-width: 360px) {
+    .header-block h1 {
+        font-size: 40px;
+    }
+    .header-block p {
+        font-size: 20px;}
+    .team-title h3 {
+        font-size: 25px;}
+    .section-title h2 {
+        font-size: 30px;
+    }
+}
+@media (max-width: 320px) {
+    .team-box img {
+        max-width: 75%;
+        margin: auto;
+    }
+    .consult-block {
+        padding: 25px 15px 20px;
+        font-size: 12px;
+    }
+    .consult-block p {
+        margin-bottom: 20px}
+}
